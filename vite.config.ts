@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => {
   
   // For GitHub Pages deployment, uncomment and set your repository name
   if (mode === 'production') {
-    base = '/portfolio/'; // Use relative path for GitHub Pages
+    base = '/'; // Use relative path for GitHub Pages
   }
   
   // For custom domain or root hosting, keep base as '/'
